@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap Project</title>
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md bg-secondary-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Moses Ventura</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="second.html">Page 2</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <!-- alternating stripes -->
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Moses</td>
+                  <td>Ventura</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Abraham</td>
+                  <td>Ventura</td>
+                  <td>@mech</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Luis</td>
+                  <td>Aguilar</td>
+                  <td>@twitter</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Steven</td>
+                  <td>Hamster</td>
+                  <td>@bigpet</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Larry</td>
+                  <td>Hamster</td>
+                  <td>@pet</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Bilbo</td>
+                  <td>Lightyear</td>
+                  <td>@facebook</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row mt-5"></div>
+      </section>
+    </main>
+    <!-- bootstrap js link -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
